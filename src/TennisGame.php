@@ -5,10 +5,10 @@ namespace Feature;
 interface TennisGame
 {
     /**
-     * @param  $playerName
+     * @param string $playerName
      * @return void
      */
-    public function wonPoint($playerName): void;
+    public function wonPoint(string $playerName): void;
 
     /**
      * @return string
